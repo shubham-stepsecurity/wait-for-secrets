@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Harden Runner
-      uses: step-security/harden-runner@int
+      uses: shubham-stepsecurity/harden-runner@main
       with:
         egress-policy: audit
     - uses: actions/checkout@v3
